@@ -1,0 +1,62 @@
+
+.kCardWrap {
+    font-family: 'Noto Sans Kannada';
+    display: grid;
+    height: max-content;
+    color: var(--txtDark);
+    background-color: var(--White);
+    border: 1px solid var(--brdr_M);
+    border-radius: 8px;
+    cursor: pointer;
+    overflow: hidden;
+    line-height: 1.75;
+    letter-spacing: 0.5px;
+    /* padding: 16px; */
+}
+
+.kCardWrap:hover {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.16);
+}
+
+.kVerse, .eVerse {
+    /* margin: 16px; */
+    padding: 16px;
+    white-space: pre-line;
+    font-size: clamp(14px, calc(1rem + 0.20vw), 16px);
+}
+
+.eVerse {
+    border-top: 1px solid var(--brdr_L);
+    display: none; /* Initially hide eVerse */
+}
+.eVerse.show { display: block; }
+
+.actRow {
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    display: flex;
+    justify-content: space-between;
+    color: var(--txtSec);
+    background-color: var(--bgHover_M);
+    border-top: 1px solid var(--brdr_L);
+    box-sizing: border-box;
+    height: 40px;
+    padding: 0 16px;
+    font-size: 18px;
+}
+
+.actRow > div {
+    display: flex;
+    align-items: center;
+    line-height: 1;
+    height: 100%;
+}
+
+.actRow > div:first-child:hover,
+.actRow > div:last-child:hover {
+    color: var(--txtLinks);
+}
+
+/* .actRow:hover > * {
+    color: maroon;
+} */

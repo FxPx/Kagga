@@ -1,0 +1,17 @@
+/* FxNavbar.css | Sree | 27 Mar 2024 */
+
+.fxNavbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100vw;
+    box-sizing: border-box;
+}
+  
+.fxNavbar > div {
+    display: flex;
+    align-items: center;
+}
+  
+.divLeft   { justify-content: flex-start; }
+.divCenter { justify-content: center; }
+.divRight  { justify-content: flex-end; }

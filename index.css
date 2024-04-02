@@ -1,10 +1,9 @@
-:root {
+/* SEE IF I CAN DELETE THIS */
+
+/* :root {
     font-family: 'Inter', -apple-system, Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
     line-height: 1.5;
-    /* margin: 0;
-    padding: 0;
-    box-sizing: border-box; */
   }
   
   body {
@@ -15,10 +14,8 @@
     color: var(--txtDark);
   }
   
-  /* Anchor tag styles */
-  
   a, a:hover {
     color: var(--txtLinks);
     text-decoration: none;
     user-select: 'none';
-  }
+  } */
