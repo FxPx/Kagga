@@ -11,7 +11,7 @@ function KCard({ kID, kKagga, eKagga }) {
     };
 
     return (
-        <div id={`kCard_${kID}`} className="kCardWrap" onClick={toggleEVerse}>
+        <div id={`kagga${kID}`} className="kCardWrap" onClick={toggleEVerse}> {/* Assign card id */}
             <div className="kVerse">{kKagga}</div>
             <div className={showEVerse ? 'eVerse show' : 'eVerse'}>{eKagga}</div>
             <div className="actRow">

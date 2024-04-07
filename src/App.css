@@ -71,6 +71,9 @@ App.css | Common Styles | 26/03/2024 | Sree
   --rad8:  8px;
   --rad16: 16px;
   --rad00: 360px;
+  
+  /* SHADOWS */
+  --shadowSrchBx: 0px 1px 2px rgba(48, 48, 48, 0.32), 0px 1px 3px 1px rgba(48, 48, 48, 0.16);
 }
 
 /* Typography */
@@ -88,6 +91,7 @@ App.css | Common Styles | 26/03/2024 | Sree
 .f20M { font-size: 20px; font-weight: 500; }
 .f22 { font-size: 22px; font-weight: 400; }
 .f22M { font-size: 22px; font-weight: 500; }
+.f24 { font-size: 24px; font-weight: 400; }
 .f24M { font-size: 24px; font-weight: 500; }
 .f32 { font-size: 32px; }
 .f40 { font-size: 40px; }

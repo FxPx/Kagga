@@ -1,0 +1,59 @@
+.srchWrap {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    height: var(--hX);
+    width: 400px;
+    gap: 0;
+    background: var(--White);
+    border: 1px solid var(--brdr_D);
+    border-radius: 6px;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  .srchWrap:hover, .srchWrap:focus-within {
+    border: transparent;
+    box-shadow: var(--shadowSrchBx);
+  }
+  
+  .srchInput, #clrSrch, .iconBoxL {  background: transparent; }
+#clrSrch, .iconBoxL {  width: 40px; }
+  
+  .iconBoxL {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: var(--hL);
+  }
+
+  .iconBoxL > * { color: var(--brdr_D); }
+
+  .srchInput {
+    font-size: 16px;
+    color: var(--txtDefault);
+    outline: none;
+    padding: 0;
+    border: 0px solid var(--brdr_D);
+  }
+
+  .srchInput::placeholder { color: var(--txtSec) !important; }
+
+  #clrSrch {
+    display: flex;
+    align-items: center; /* Align button vertically */
+    justify-content: center; /* Align button horizontally */
+    /* fill: var(--txtMed); */
+    color: var(--txtMed);
+    border: 0;
+  }
+  
+  .srchInput:not(:valid) ~ #clrSrch {  display: none; }
+  
+  .srchInput::placeholder { 
+    color: var(--Gray_L);
+  }
+  
+  #clrSrch:is(:active, :hover, :focus) { 
+    cursor: pointer; 
+  }
+  
